@@ -2,7 +2,7 @@
 
 public class Main {
     public static void main(String[] args) {
-        LabStack stack = new LabStack(5);
+        LabStack stack = new LabStack();
 
         System.out.println("Стек пустой? " + stack.isEmpty());
 
